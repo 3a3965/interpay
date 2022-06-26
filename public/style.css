@@ -1,0 +1,39 @@
+.form input{
+    width:100%;
+    display:block;
+    margin-bottom: 10px;
+}
+.v2-but-disable{
+    background: #ccc !important;
+}
+.result-item .gr{
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.result-item:first-child .gr{
+    border-top:1px solid #ccc;
+}
+.result-item .col-md-6:first-child .gr{
+    border-left:1px solid #ccc;
+}
+.gr{
+    padding:5px;
+}
+.form-post-result{
+    overflow: hidden;
+}
+.result-item{
+    position: relative;
+    left:-150%;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
